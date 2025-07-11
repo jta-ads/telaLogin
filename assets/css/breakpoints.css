@@ -5,11 +5,12 @@
     }
     main{
         display: flex;
-        width: 75%;
+        width: 90%;
         
     }
     div.img{
         border-radius: 10px 0px 0px 10px;
+        /* height: 50vh; */
         
     }
 
@@ -47,6 +48,7 @@
     div.img{
         border-radius: 0px 10px 10px 0px;
         background-position: center center;
+        /* height: 60vh; */
         
     }
 
