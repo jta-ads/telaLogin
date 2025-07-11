@@ -1,0 +1,78 @@
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    body{
+        background-image: linear-gradient(to bottom, rgb(236, 225, 225), rgb(14, 14, 238));
+    }
+    main{
+        display: flex;
+        width: 75%;
+        
+    }
+    div.img{
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+
+    .container{
+        border-radius: 0px 10px 10px 0px;
+    }
+    .login input{
+       height: 25px;
+       margin: 2px;
+    }
+    .login i{
+        font-size: 20px;
+        margin: 4px;
+    }
+    form input[type="submit"]{
+        padding: 10px;
+    }
+    form div.btn-esqueceusenha{
+        padding: 10px;
+        width: 95%;
+    }
+    
+}
+@media  screen and (min-width: 991px) {
+    body{
+        background-image: linear-gradient(to bottom, rgb(236, 225, 225), rgb(14, 14, 238));
+        width: 100%;
+    }
+    main{
+        display: flex;
+        width: 50%;
+        flex-direction: row-reverse;
+        
+    }
+    div.img{
+        border-radius: 0px 10px 10px 0px;
+        background-position: center center;
+        
+    }
+
+    .container{
+        border-radius: 10px 0px 0px 10px;
+    }
+    .container h1{
+        font-size: 2em;
+    }
+    .container p{
+        font-size: 1em;
+    }
+    .login input{
+       height: 25px;
+       margin: 2px;
+    }
+    .login i{
+        font-size: 20px;
+        margin: 4px;
+    }
+    form input[type="submit"]{
+        padding: 10px;
+    }
+    form div.btn-esqueceusenha{
+        padding: 10px;
+        width: 95%;
+    }
+    
+}

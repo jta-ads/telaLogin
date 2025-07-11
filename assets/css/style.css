@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    display: block;
+    
+}
+div.img{
+    background-image: url(/img/mario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+
+    
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 9px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.container h1{
+    font-size: 1.5em;
+    margin: 6px;
+}
+.container p{
+    font-size: .8em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: crimson;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1px;
+}
+.login input{
+    width: 88%;
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px;
+}
+.login i{
+    font-size: 15px;
+    margin: 0px 4px;
+}
+form input[type="submit"]{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+form input[type="submit"]:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
+form div.btn-esqueceusenha{
+    border: 1px solid red;
+    width: 96%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: red;
+}
+form div.btn-esqueceusenha:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
+
