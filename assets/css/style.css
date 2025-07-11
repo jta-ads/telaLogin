@@ -18,7 +18,7 @@ main{
     
 }
 div.img{
-    background-image: url(/img/mario.jpg);
+    background-image: url("/img/mario.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
